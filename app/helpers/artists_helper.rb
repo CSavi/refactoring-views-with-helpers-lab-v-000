@@ -1,6 +1,7 @@
 module ArtistsHelper
 
   def display_artist(song)
-    @song = Artist.find_by(name: name)
+    if song.artist.empty?
+      link_to 
   end
 end
